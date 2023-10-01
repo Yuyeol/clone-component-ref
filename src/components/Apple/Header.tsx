@@ -27,7 +27,7 @@ const Text = styled.p`
 interface IProps {
   height: number;
 }
-function Header({ height }: IProps) {
+const Header = ({ height }: IProps) => {
   return (
     <Container height={height}>
       <LogoWrapper>
@@ -36,6 +36,6 @@ function Header({ height }: IProps) {
       <Text>콤팩트 리퀴드 필-드</Text>
     </Container>
   );
-}
+};
 
 export default Header;

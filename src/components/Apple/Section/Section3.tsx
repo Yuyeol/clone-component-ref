@@ -3,46 +3,16 @@ import styled from "@emotion/styled";
 const Container = styled.section`
   padding: 0 20px;
 `;
-const ImgContainer = styled.div`
-  position: relative;
-  div {
-    position: absolute;
-    right: 0;
-    width: 100px;
-  }
-`;
-const Title = styled.h1`
-  font-size: 30px;
-  font-weight: 700;
-`;
+
 const Description = styled.p`
   color: #a1a1a6;
 `;
 const Highlight = styled.span`
   color: white;
 `;
-function Section() {
+const Section3 = () => {
   return (
     <Container>
-      <ImgContainer>
-        <div>
-          <img src="/img/cups/01.png" alt="cups" />
-        </div>
-        <div>
-          <img src="/img/cups/02.png" alt="cups" />
-        </div>
-        <div>
-          <img src="/img/cups/03.png" alt="cups" />
-        </div>
-        <div>
-          <img src="/img/cups/04.png" alt="cups" />
-        </div>
-      </ImgContainer>
-      <Title>
-        <p>128mm</p>
-        <p>Compact Liquid Filled</p>
-        <p>잔. 간결하게, 유려하게.</p>
-      </Title>
       <Description>
         <Highlight>걍 커피잔 12.8에서의 익스트림 다이내믹 레인지</Highlight>{" "}
         Compact Liquid Container는
@@ -56,6 +26,6 @@ function Section() {
       </Description>
     </Container>
   );
-}
+};
 
-export default Section;
+export default Section3;

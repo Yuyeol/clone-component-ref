@@ -5,8 +5,8 @@ const Container = styled.footer`
   background: #f5f5f7;
   color: #6e6e73;
 `;
-function Footer() {
+const Footer = () => {
   return <Container>Footer입니다.</Container>;
-}
+};
 
 export default Footer;

@@ -1,7 +1,9 @@
 import styled from "@emotion/styled";
 import Header from "./Header";
 import Footer from "./Footer";
-import Section from "./Section";
+import Section1 from "./Section/Section1";
+import Section2 from "./Section/Section2";
+import Section3 from "./Section/Section3";
 
 const HEADER_HEIGHT = 50;
 const Container = styled.div`
@@ -20,15 +22,17 @@ const Container = styled.div`
     height: ${HEADER_HEIGHT}px;
   }
 `;
-function Apple() {
+const Apple = () => {
   return (
     <Container>
       <Header height={HEADER_HEIGHT} />
       <div className="header-height" />
-      <Section />
+      <Section1 />
+      <Section2 />
+      <Section3 />
       <Footer />
     </Container>
   );
-}
+};
 
 export default Apple;
