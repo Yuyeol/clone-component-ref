@@ -1,9 +1,6 @@
 import styled from "@emotion/styled";
 
-const Container = styled.section`
-  padding: 0 20px;
-`;
-const Title = styled.h1`
+const Container = styled.div`
   font-size: 30px;
   font-weight: 700;
 `;
@@ -12,18 +9,16 @@ const FixedText = styled.p`
   display: none;
 `;
 
-const Section = () => {
+const Section1 = () => {
   return (
     <Container>
-      <Title>
-        <p>Compact Liquid Filled</p>
-        <FixedText>128mm</FixedText>
-        <FixedText>그냥 커피잔</FixedText>
-        <FixedText>간결하게,</FixedText>
-        <FixedText>유려하게.</FixedText>
-      </Title>
+      <p>Compact Liquid Filled</p>
+      <FixedText>128mm</FixedText>
+      <FixedText>그냥 커피잔</FixedText>
+      <FixedText>간결하게,</FixedText>
+      <FixedText>유려하게.</FixedText>
     </Container>
   );
 };
 
-export default Section;
+export default Section1;

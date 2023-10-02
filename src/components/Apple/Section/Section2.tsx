@@ -1,8 +1,6 @@
 import styled from "@emotion/styled";
 
-const Container = styled.section`
-  padding: 0 20px;
-`;
+const Container = styled.div``;
 const ImgContainer = styled.div`
   position: relative;
   div {

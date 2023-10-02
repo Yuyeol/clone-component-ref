@@ -1,15 +1,13 @@
 import styled from "@emotion/styled";
 
-const Container = styled.section`
-  padding: 0 20px;
-`;
-
+const Container = styled.div``;
 const Description = styled.p`
   color: #a1a1a6;
 `;
 const Highlight = styled.span`
   color: white;
 `;
+
 const Section3 = () => {
   return (
     <Container>

@@ -33,7 +33,7 @@ const Header = ({ height }: IProps) => {
       <LogoWrapper>
         <img src="/img/cups/02.png" alt="logo" />
       </LogoWrapper>
-      <Text>콤팩트 리퀴드 필-드</Text>
+      <Text>콤팩트 리퀴드 퓔-드</Text>
     </Container>
   );
 };
